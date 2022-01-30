@@ -30,7 +30,13 @@ add_action('wp_enqueue_scripts', 'include_styles');
 
 function include_js_files() {
 
-    wp_enqueue_script('idm250-js', get_template_directory_uri() . '/scripts/main.js');
+    wp_enqueue_script(
+        'idm250-js',
+        get_template_directory_uri() . '/scripts/main.js', 
+        [],
+        false,
+        true 
+    );
 
 }
 

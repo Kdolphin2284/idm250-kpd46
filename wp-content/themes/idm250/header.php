@@ -24,7 +24,7 @@
     </div>
 </div>
 <div id="mobile-navigation">
-    <?php wp_nav_menu(['theme location' => 'primary_menu']); ?>
+    <?php wp_nav_menu(['theme_location' => 'primary_menu']); ?>
 </div>
 
 

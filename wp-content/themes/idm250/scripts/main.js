@@ -5,12 +5,20 @@ console.log(works);
 let hamburger = document.getElementById('hamburger');
 let menu = document.getElementById('mobile-navigation');
 
-
-// if (hamburger.style.position = "absolute") {
-//     console.log('hehehe');
-// }
-
+function noScroll(){
+    window.scrollTo(0,0)
+}
 
 hamburger.addEventListener("click", function(){
-    menu.style.left = "0";
-})
+    if (!menu.classList.contains('onScreen')) {
+        menu.classList.add('onScreen');
+        hamburger.classList.add('closeMenu');
+        menu.style.left = "0%";
+        window.addEventListener('scroll', noScroll);
+    } else {
+        menu.classList.remove('onScreen');
+        hamburger.classList.remove('closeMenu');
+        menu.style.left = "100%";
+        window.removeEventListener('scroll', noScroll)
+    }
+});
