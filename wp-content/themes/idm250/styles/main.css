@@ -5,6 +5,9 @@
 * {
   box-sizing: border-box;
 }
+html, body {
+  overflow-x: clip;
+}
 html {
   min-height: 100vh;
   background: #393939;
@@ -14,8 +17,8 @@ html {
 }
 body {
   position: relative;
-  overflow: hidden;
   margin: 0;
+
 }
 body::before {
   position: absolute;
@@ -37,6 +40,8 @@ body::after {
   background: #fff;
   right: 150.8px;
 }
+
+
 
 /* ///////////////////// */
 /* ///// FONTS CSS ///// */
@@ -204,7 +209,7 @@ body::after {
   margin-bottom: 30px;
 }
 #menu-primary-menu li a {
-  font-size: 70px;
+  font-size: 65px;
 }
 #menu-primary-menu {
   padding: 80px;
