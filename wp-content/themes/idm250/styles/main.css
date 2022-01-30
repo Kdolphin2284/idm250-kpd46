@@ -1,3 +1,105 @@
 * {
-    color: red;
-}
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+      font-family: Caviar-Dreams;
+      src: url(../fonts/Caviar_Dreams_Bold.ttf);
+      src: url(../fonts/Caviar_Dreams_Bold.woff);
+      src: url(../fonts/Caviar_Dreams_Bold.woff2);
+  }
+  #menu-primary-menu li a {
+      font-family: Caviar-Dreams;
+      color: #000;
+      font-size: 24px;
+      text-decoration: none;
+  }
+  #menu-primary-menu li {
+      list-style: none;
+  }
+  #menu-primary-menu {
+    display: flex;
+    flex-direction: revert;
+    justify-content: flex-end;
+    background: #fff;
+    margin: 0;
+    padding: 20px 50px;
+      align-items: center;
+    min-height: 80px;
+  }
+  #menu-primary-menu li:not(:last-child) {
+    margin-right: 45px;
+  }
+  
+  
+  html {
+    min-height: 100vh;
+    background: #393939;
+  }
+  .customize-support {
+    margin: 0;
+  }
+  #mobile-hamburger {
+      display: none;
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 1080px) {
+  #menu-primary-menu li a {
+    font-size: 20px;
+  }
+  #menu-primary-menu li:not(:last-child) {
+    margin-right: 35px;
+  }
+  #menu-primary-menu {
+    padding: 10px 50px;
+    min-height: 60px;
+  }
+  }
+  @media only screen and (max-width: 700px) {
+  #mobile-navigation #menu-primary-menu {
+    flex-direction: column;
+    align-items: flex-end;
+    min-height: 100vh;
+    justify-content: center;
+  }
+  #menu-primary-menu li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  #menu-primary-menu li a {
+    font-size: 70px;
+  }
+  #menu-primary-menu {
+    padding: 80px;
+  }
+  #mobile-navigation {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  #mobile-hamburger {
+    position: relative;
+    min-height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 45px;
+  }
+  .hamburger-rectangles {
+    padding: 3px 20px;
+    background: #000;
+  }
+  #hamburger .hamburger-rectangles:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  
+  
+      
+  }
+  
