@@ -13,9 +13,17 @@
 
     ?>
 
+    <?php
+
+    // Body page specificiation
+    $idm_lower_title = strtolower(get_the_title());
+    $idm_page_specify = str_replace(' ', '-', $idm_lower_title);
+
+    ?>
+
     
 </head>
-<body>
+<body id="<?php echo $idm_page_specify; ?>">
 <div id="mobile-hamburger">
     <div id="hamburger">
         <div class="hamburger-rectangles"></div>

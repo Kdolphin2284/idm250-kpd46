@@ -1,17 +1,25 @@
 
+<?php
+/*
+Template Name: Portfolio Listing
+*/
+?>
+
 <?php get_header(); ?>
 
-<!-- <?php echo 'This is the front page'; ?> -->
+
+This is a portfolio listing template
+
 
 <?php while(have_posts()) : the_post(); ?>
 
-<div class="<?php echo the_title();?>">
-    <h1 class="idm_page_title"><?php the_title(); ?>
+<div class="idm_portfolio_listing idm_content_container">
+    <h1 class=""><?php the_title(); ?>
     </h1>
 
     <?php the_post_thumbnail(); ?>
 
-    <div class="idm_content_container">
+    <div class="">
 
         <!-- start content -->
         <?php the_content(); ?>
@@ -21,5 +29,8 @@
 </div>
 
 <?php endwhile; ?>
+
+
+
 
 <?php get_footer(); ?>

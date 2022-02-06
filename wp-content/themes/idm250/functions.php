@@ -63,4 +63,5 @@ function add_post_thumbnails_support() {
 
 add_action('after_setup_theme', 'add_post_thumbnails_support');
 
+
 ?>
