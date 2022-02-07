@@ -8,7 +8,7 @@ Template Name: Portfolio Listing
 <?php get_header(); ?>
 
 
-This is a portfolio listing template
+<!-- This is a portfolio listing template -->
 
 
 <?php while(have_posts()) : the_post(); ?>

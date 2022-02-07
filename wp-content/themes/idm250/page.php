@@ -29,11 +29,11 @@ while(have_posts()) : the_post();
 
 <?php endwhile; ?>
 
-<?php
+<!-- <?php
 
 echo 'This is a page';
 
-?>
+?> -->
 
 
 

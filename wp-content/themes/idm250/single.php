@@ -12,13 +12,15 @@ get_header();
 while(have_posts()) : the_post(); 
 ?>
 
-<div class="">
-    <h1 class=""><?php the_title(); ?>
-    </h1>
+<div class="idm_single">
+    <div class="idm_single_hero">
+        <h1 class="idm_single_title"><?php the_title(); ?>
+        </h1>
+    </div>
 
     <?php the_post_thumbnail(); ?>
 
-    <div class="">
+    <div class="idm_single_content">
 
         <!-- start content -->
         <?php the_content(); ?>
@@ -29,11 +31,11 @@ while(have_posts()) : the_post();
 
 <?php endwhile; ?>
 
-<?php
+<!-- <?php
 
 echo 'This is a single';
 
-?>
+?> -->
 
 
 

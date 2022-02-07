@@ -1,19 +1,19 @@
 
 <?php
 /*
-Template Name: Narrow
+Template Name: Search
 */
 ?>
 
 <?php get_header(); ?>
 
 
-<!-- This is a narrow template -->
+<!-- This is a search template -->
 
 
 <?php while(have_posts()) : the_post(); ?>
 
-<div class="">
+<div class="idm_search idm_content_container">
     <h1 class=""><?php the_title(); ?>
     </h1>
 
