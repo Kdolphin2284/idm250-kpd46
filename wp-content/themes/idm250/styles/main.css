@@ -580,8 +580,6 @@ h6 {
 .idm_search .idm_page_head p strong:nth-child(4) {
   color: #FF5F5F;
 }
-
-
 .idm_portfolio_listing .idm_page_head p strong, .idm_search .idm_page_head p strong {
   font-family: SF-Pro-Display-Bold;
   font-weight: 400;
@@ -866,9 +864,6 @@ h6 {
 .wp-container-62006d8a2d365.wp-block-group.idm_process_insights {
   margin-bottom: 100px;
 }
-/* .idm_single_solo_text {
-  margin: 100px auto;
-} */
 .idm_the_solution {
   margin: 100px auto;
 }
@@ -923,6 +918,9 @@ h6 {
 .idm_process_insights + .idm_single_image_group + .idm_single_solo_text + .idm_single_image_group + .idm_single_solo_text + .idm_single_image_group figure:nth-child(3)::before {
   content: 'Admin Add Recipe Page';
 }
+.category-casestudy .idm_single .idm_single_hero + img {
+  display: none;
+}
 #case-study-–-scripting-ii h3 {
   color: #dc8341;
 }
@@ -946,6 +944,113 @@ h6 {
   align-items: center;
   max-width: 500px;
   width: 100%;
+}
+#case-study-–-scripting-ii .idm_single_hero {
+	background-image: url(/wp-content/uploads/2022/02/tastyFoodCoWp.png);
+}
+
+
+
+/* //////////////////////////// */
+/* ///// PROJECT TEMPLATE ///// */
+/* //////////////////////////// */
+
+.idm-project-code-breadcrumbs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 14%;
+}
+.idm-project-preview {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.idm-project-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%;
+}
+.idm-project-subheading {
+  font-size: 22px;
+  color: #fff;
+  font-family: SF-Pro-Display;
+  margin: 0;
+}
+.idm-project-name {
+  margin: 0;
+  white-space: nowrap;
+}
+.idm-project-blurb {
+  color: #fff;
+  font-family: SF-Pro-Display;
+  font-size: 18px;
+  border-left: 4px solid;
+  border-left-color: currentcolor;
+  padding-left: 12px;
+}
+.idm-project-preview-text {
+  width: 100%;
+  max-width: 380px;
+}
+.idm-project-image {
+  width: 100%;
+  max-width: 400px;
+}
+.idm-project-code-breadcrumbs p {
+  margin: 0;
+}
+.idm-project-code-breadcrumbs p:not(:last-child) {
+  margin-bottom: 5px;
+}
+.idm-project-links a {
+  color: #fff;
+  background-color: #32373c;
+  border-radius: 9999px;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125em;
+  padding: calc(.667em + 2px) calc(1.333em + 2px);
+  text-align: center;
+  text-decoration: none;
+  word-break: break-word;
+  box-sizing: border-box;
+	border-radius: 0;
+	font-family: Caviar-Dreams;
+	font-size: 18px;
+	border: 2px solid;
+	border-top-color: currentcolor;
+	border-right-color: currentcolor;
+	border-bottom-color: currentcolor;
+	border-left-color: currentcolor;
+	border-top-color: currentcolor;
+	border-right-color: currentcolor;
+	border-bottom-color: currentcolor;
+	border-left-color: currentcolor;
+	transition: all .5s ease-in-out;
+}
+.idm-project-links a:hover {
+	background: transparent !important;
+	border-style: dashed;
+}
+.idm-project-links {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.idm-project-links a:not(:last-child) {
+	margin-bottom: 8px;
+}
+.idm-project-preview {
+  margin-top: 100px;
+}
+.idm-project-preview:last-child {
+  margin: 100px 0;
 }
 
 

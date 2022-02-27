@@ -23,7 +23,7 @@
 
     
 </head>
-<body id="<?php echo $idm_page_specify; ?>">
+<body id="<?php echo $idm_page_specify; ?>"<?php body_class(); ?>>
 <div id="mobile-hamburger">
     <div id="hamburger">
         <div class="hamburger-rectangles"></div>

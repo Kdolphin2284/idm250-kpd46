@@ -8,7 +8,7 @@ get_header();
 
 
 
-<?php 
+<?php
 while(have_posts()) : the_post(); 
 ?>
 
