@@ -2,9 +2,9 @@
 // https://developer.wordpress.org/reference/classes/wp_query/
 $arg = [
     'category_name' => 'casestudy',
-    'post_status' => 'publish',
-    'posts_per_page' => 2,
-    'order' => 'DESC'
+    'post_status' => 'publish'
+    // 'posts_per_page' => 2,
+    // 'order' => 'DESC'
 ];
 $project_query = new WP_Query($arg);
 ?>
