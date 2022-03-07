@@ -17,7 +17,14 @@
         <?php the_content(); ?>
         <!-- end content -->
 
+        <?php
+
+        get_template_part('components/home-projects');
+
+        ?>
+
     </div>
+
 </div>
 
 <?php endwhile; ?>

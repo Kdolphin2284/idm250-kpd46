@@ -12,7 +12,7 @@ get_header();
 while(have_posts()) : the_post(); 
 ?>
 
-<div class="">
+<div class="idm-default-page idm_content_container">
     <h1 class=""><?php the_title(); ?>
     </h1>
 
