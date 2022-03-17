@@ -27,11 +27,13 @@ Template Name: Projects
 
     </div>
 
+    <div id="idm-projects-container">
     <?php
 
-    get_template_part('components/recent-projects');
+        get_template_part('components/recent-projects');
 
     ?>
+    </div>
 </div>
 
 <?php endwhile; ?>
