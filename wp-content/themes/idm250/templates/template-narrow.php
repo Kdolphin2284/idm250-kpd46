@@ -5,21 +5,27 @@ Template Name: Narrow
 */
 ?>
 
-<?php get_header(); ?>
+
+<?php
+
+// Gets header.php file
+get_header();
+
+?>
 
 
-<!-- This is a narrow template -->
 
+<?php 
+while(have_posts()) : the_post(); 
+?>
 
-<?php while(have_posts()) : the_post(); ?>
-
-<div class="">
+<div class="idm-default-page idm_content_container">
     <h1 class=""><?php the_title(); ?>
     </h1>
 
     <?php the_post_thumbnail(); ?>
 
-    <div class="">
+    <div class="narrow-template" style="max-width: 600px; width: 100%;">
 
         <!-- start content -->
         <?php the_content(); ?>
@@ -30,7 +36,17 @@ Template Name: Narrow
 
 <?php endwhile; ?>
 
+<!-- <?php
+
+echo 'This is a page';
+
+?> -->
 
 
 
-<?php get_footer(); ?>
+<?php
+
+// Gets footer.php file
+get_footer();
+
+?>
