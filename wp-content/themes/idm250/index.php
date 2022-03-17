@@ -8,7 +8,7 @@ get_header();
 ?>
 
 <div class="idm_content_container">
-<div id="all-projects-header">
+<div id="search-results-header">
     <h1>Search Results</h1>
     <p>Below are <b>search results</b> based off of the project you just tried to <b>find</b>. If you <b>don’t see</b> what you are looking for right away, try <b>typing it differently</b>.</p>
     <a href="<?php echo home_url(); ?>">Back to Home</a>
@@ -18,7 +18,8 @@ get_header();
 
  $args = [
      's' => $_GET['s'],
-     'post_type' => $_GET['post_type'],
+     'post_type' => 'post',
+    //  'post_type' => $_GET['post_type'],
  ];
  $search_query = new WP_Query($args)
 ?>

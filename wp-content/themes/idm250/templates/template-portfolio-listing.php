@@ -14,9 +14,9 @@ Template Name: Portfolio Listing
 <?php while(have_posts()) : the_post(); ?>
 
 <div class="idm_portfolio_listing idm_content_container">
-<div id="search-results-header">
+<div id="all-projects-header">
     <h1>All Projects</h1>
-    <p>Below are <b>search results</b> based off of the project you just tried to <b>find</b>. If you <b>don’t see</b> what you are looking for right away, try <b>typing it differently</b>.</p>
+    <p>Below is a list of all of my <span>projects</span>. Find one that looks <span>interesting</span>? Check it <span>out</span>!</p>
     <a href="#projects">View Projects</a>
 </div>
 

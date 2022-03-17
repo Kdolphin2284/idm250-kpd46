@@ -17,11 +17,13 @@
         <?php the_content(); ?>
         <!-- end content -->
 
-        <?php
+        <div id="home-projects">
+            <?php
 
-        get_template_part('components/home-projects');
+                get_template_part('components/home-projects');
 
-        ?>
+            ?>
+        </div>
 
     </div>
 
