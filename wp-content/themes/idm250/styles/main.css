@@ -184,7 +184,24 @@ section.idm_landing_screen > .wp-block-group__inner-container {
   src: url(../fonts/SFPRODISPLAYREGULAR.woff);
   src: url(../fonts/SFPRODISPLAYREGULAR.woff2);
 }
-
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url('../fonts/Poppins-Regular.ttf');
+  src: url('../fonts/Poppins-Regular.woff');
+  src: url('../fonts/Poppins-Regular.woff2');
+}
+@font-face {
+  font-family: "Poppins-Semibold";
+  src: url('../fonts/Poppins-SemiBoldItalic.ttf');
+  src: url('../fonts/Poppins-SemiBold.woff');
+  src: url('../fonts/Poppins-SemiBold.woff2');
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url('../fonts/Poppins-Bold.ttf');
+  src: url('../fonts/Poppins-Bold.woff');
+  src: url('../fonts/Poppins-Bold.woff2');
+}
 
 
 /* ////////////////////// */
@@ -1355,7 +1372,6 @@ p a {
 	font-size: 18px;
 }
 .idm-archive-project-link:hover {
-  border: ;
   border-style: dashed;
   background: transparent;
   color: #fff;
@@ -1418,7 +1434,6 @@ p a {
 }
 #search-results-header h1, #all-projects-header h1 {
   font-weight: 700;
-  font-family: ;
   margin-bottom: 10px;
 }
 #search-results-header p, #all-projects-header p {

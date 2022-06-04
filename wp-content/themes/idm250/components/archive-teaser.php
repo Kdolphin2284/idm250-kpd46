@@ -9,9 +9,9 @@ $project_categories = get_the_terms(get_the_ID(), 'idm-project-categories');
 
 $values = get_field( 'project_theme_color' );
 if ( $values ) {
-    echo 'A value is set';
+    // echo 'A value is set';
 } else {
-    echo 'A value is not set';
+    // echo 'A value is not set';
 }
 
 ?>
